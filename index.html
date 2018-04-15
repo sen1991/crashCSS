@@ -23,6 +23,7 @@
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea officia sint tenetur libero animi. Sit sequi aspernatur excepturi! Fugiat reiciendis soluta minus laudantium voluptate suscipit eos assumenda architecto ea expedita.
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga neque asperiores accusantium earum corrupti, explicabo officia assumenda quibusdam perspiciatis! Totam illo obcaecati provident quisquam incidunt, earum reiciendis veritatis recusandae doloribus.
             </p>
+            <a class="button" href="">Read More</a>
         </div><!--  end box-2 -->
         <div class="categories">
             <h2>Categories</h2>
@@ -34,28 +35,23 @@
                 <li><a href="text.html">Category 5</a></li>
             </ul>
         </div><!-- end categories -->
-        <form action="process.php" method="POST">
-            <div>
-                <label for="firstName">First Name</label>
-                <input type="text" name="first-name" id="firstName" placeholder="Enter first name">
+        <form class="my-form" action="process.php" method="POST">
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" name="name" id="firstName" placeholder="Enter first name">
             </div>
             <br>
-            <div>
-                <label for="lastName">Last Name</label>
-                <input type="text" name="last-name" id="lastName">
-            </div>
-            <br>
-            <div>
-                <label for="email">E-mail</label>
+            <div class="form-group">
+                <label for="email">E-mail:</label>
                 <input type="email" name="email" id="email">
             </div>
             <br>
-            <div>
-                <label for="">Message</label>
-                <textarea name="message" id="" cols="30" rows="10"></textarea>
-            </div>
+            <div class="form-group">
+                <label for="">Message:</label>
+                <textarea name="message" id=""></textarea>
+            </div><!--   cols="30" rows="10" -->
             <br>
-            <div>
+            <!-- <div>
                 <label for="">Genler</label>
                 <select name="gender">
                     <option value="male">Male</option>
@@ -78,11 +74,38 @@
                 <input type="submit" name="submit" value="Submit">
             </div>
             <br>
-            <!-- Button -->
+            Button
             <div>
                 <button click="someFunction()">Click Me</button>
-            </div>
+            </div> -->
+            <input class="button" type="submit" value="Submit" name="">
         </form>
+
+        <div class="block">
+            <h3>Heading</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur voluptate quae, 
+                iure quia deleniti repudiandae modi exercitationem molestiae illo, rem ex. Fuga voluptatibus
+                 voluptatum itaque, debitis voluptatem reprehenderit libero assumenda!
+            </p>
+        </div><!--  end block -->
+
+        <div class="block">
+            <h3>Heading</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur voluptate quae, 
+                   iure quia deleniti repudiandae modi exercitationem molestiae illo, rem ex. Fuga voluptatibus
+                 voluptatum itaque, debitis voluptatem reprehenderit libero assumenda!
+            </p>
+        </div><!--  end block -->
+        
+        <div class="block">
+            <h3>Heading</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur voluptate quae, 
+                iure quia deleniti repudiandae modi exercitationem molestiae illo, rem ex. Fuga voluptatibus
+                 voluptatum itaque, debitis voluptatem reprehenderit libero assumenda!
+            </p>
+        </div><!--  end block -->
     </div><!--  end container -->
+
+    <div style="margin-top: 500px;"></div>
 </body>
 </html>
