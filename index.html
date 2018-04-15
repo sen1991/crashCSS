@@ -31,8 +31,58 @@
                 <li><a href="#">Category 2</a></li>
                 <li><a href="#">Category 3</a></li>
                 <li><a href="#">Category 4</a></li>
+                <li><a href="text.html">Category 5</a></li>
             </ul>
         </div><!-- end categories -->
+        <form action="process.php" method="POST">
+            <div>
+                <label for="firstName">First Name</label>
+                <input type="text" name="first-name" id="firstName" placeholder="Enter first name">
+            </div>
+            <br>
+            <div>
+                <label for="lastName">Last Name</label>
+                <input type="text" name="last-name" id="lastName">
+            </div>
+            <br>
+            <div>
+                <label for="email">E-mail</label>
+                <input type="email" name="email" id="email">
+            </div>
+            <br>
+            <div>
+                <label for="">Message</label>
+                <textarea name="message" id="" cols="30" rows="10"></textarea>
+            </div>
+            <br>
+            <div>
+                <label for="">Genler</label>
+                <select name="gender">
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="others">Others</option>
+                </select>
+            </div>
+            <br>
+            <div>
+                <label for="">Age:</label>
+                <input type="number" name="age" value="30">
+            </div>
+            <br>
+            <div>
+                <label for="">Birthday:</label>
+                <input type="date" name="birthday">
+            </div>
+            <br>
+            <div>
+                <input type="submit" name="submit" value="Submit">
+            </div>
+            <br>
+            <!-- Button -->
+            <div>
+                <button click="someFunction()">Click Me</button>
+            </div>
+        </form>
     </div><!--  end container -->
 </body>
 </html>
