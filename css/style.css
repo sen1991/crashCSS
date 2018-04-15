@@ -16,6 +16,24 @@ body{
     margin: 0;
 }
 
+a{
+    text-decoration: none;
+    color: #000;
+}
+
+a:hover{
+    color: red;
+}
+
+a:active{
+    color: green;
+}
+
+a:visited{
+    /* color: yellow; */
+    color: black;
+}
+
 .container{
     width: 80%;
     margin: auto;
@@ -75,6 +93,13 @@ body{
 
 .categories ul{
     padding: 0;
+    padding-left: 20px;
     /* list-style: square; */
     list-style: none;
+}
+
+.categories li{
+    padding-bottom: 6px;
+    border-bottom: #333 dotted 1px;
+    list-style-image: url('../images/check.png')
 }
