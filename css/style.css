@@ -30,8 +30,8 @@ a:active{
 }
 
 a:visited{
-    /* color: yellow; */
-    color: black;
+    /* color: yellow;
+    color: black; */
 }
 
 .container{
@@ -39,6 +39,17 @@ a:visited{
     margin: auto;
 }
 
+.button{
+    background-color: #333;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+}
+
+.button:hover{
+    background: red;
+    color: #fff;
+}
 
 .box-1{
     background-color: #333333;
@@ -102,4 +113,29 @@ a:visited{
     padding-bottom: 6px;
     border-bottom: #333 dotted 1px;
     list-style-image: url('../images/check.png')
+}
+
+.my-form{
+    padding: 20px;
+}
+
+.my-form .form-group{
+    padding-bottom: 15px;
+}
+
+.my-form label{
+    display: block;
+}
+
+.my-form input[type="text"], .my-form input[type="email"], .my-form textarea{
+    padding: 8px;
+    width: 100%;
+}
+
+.block{
+    float: left;
+    width: 33.3%;
+    border: 1px solid #ccc;
+    padding: 10px;
+    box-sizing:border-box;
 }
